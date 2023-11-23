@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.back {
+  background-color: "#1c1c1b";
+  width: 100vw;
+  height: 100vh;
+}
+
+.home_img {
+  position: absolute;
+  z-index: -1;
+  width: 100vw;
+  height: 100vh;
+}
+
+.home_img img {
+  min-width: 100%;
+  height: 100vh;
+  opacity: 0.6;
+}
+
+.head h1 {
+  background-color: #30302f;
+  text-align: center;
+  /* margin-left: 2rem; */
+  color: #e75480;
+  font-weight: bold;
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
